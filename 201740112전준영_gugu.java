@@ -9,7 +9,7 @@ public class Gugudan {
 		  int n;
 		  int i = 1;
 		  
-		  System.out.print("¿øÇÏ´Â ±¸±¸´ÜÀ» ÀÔ·ÂÇÏ½Ã¿À:");
+		  System.out.print("ç›”çªç»° å¤‡å¤‡çªœé˜‘ æ¶ä»¿çªçŸ«å·:");
 		  
 		  Scanner scan = new Scanner(System.in);
 		  
