@@ -3,19 +3,19 @@ public class jeon {
 
 	  public static void main(String[] ar)throws IOException{
           BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-          System.out.print("¿øÇÏ´Â ¿¬µµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+          System.out.print("ì›í•˜ëŠ” ì—°ë„ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
           int year=0;
           year=Integer.parseInt(in.readLine());
  
           if(year%100==0&&year%400==0){
-                System.out.println(year+"´Â À±³â");
+                System.out.println(year+"ëŠ” ìœ¤ë…„");
           }
  
           else if(year%4==0&&year%100!=0){
-                System.out.println(year+"´Â À±³â");
+                System.out.println(year+"ëŠ” ìœ¤ë…„");
           }
  
           else
-                System.out.println(year+"´Â À±³â¾Æ´Õ´Ï´Ù");
+                System.out.println(year+"ëŠ” ìœ¤ë…„ì•„ë‹™ë‹ˆë‹¤");
     }
 }
